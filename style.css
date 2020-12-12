@@ -14,3 +14,11 @@ img.am{float: left;padding: 10px}
 img.gallery{width: 50%; height: 400px}
 a{ text-decoration: none;background: white ; color: black;}
 .nav li{ display:inline-block;float: right;padding-left: 20px  }
+.test li a{margin-top:-90px !important;background-color: black;}
+.bg-light {
+    background-color: #000000 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+

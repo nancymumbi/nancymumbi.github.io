@@ -4,22 +4,47 @@
 	<title>GALLERY</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style > 
 
-
+.bg-light {
+    background-color: #000000 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+</style>
 </head>
 <body>
 <br>	
-<div class='container'>	
-<nav class="navbar navbar-light">
-<a class="navbar-brand" href="#">
-<img src="images/LOGO.PNG"width=20% height=20%>
-<ul class='nav justify-content-end nav-pills'>
-<li class='nav-item'><a class='nav-link ' href="index.html">Home </a>	</li> 
-<li class='nav-item'><a class='nav-link active' href="gallery.html">Gallery </a>	</li>
-<li class='nav-item'><a class='nav-link' href="contact.html">Contact</a> </li>
-<li class='nav-item'><a class='nav-link' href="book.html">Book here </a>	</li>
-</ul>	
-</nav>	
+
+<div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+            <img src="images/LOGO.PNG" height="75" alt="CoolBrand">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="gallery.html" class="nav-item nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a href="book.html" class="nav-item nav-link">Book here</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
 <br><br>
 <center><h2 >My Portfolio</h2></center>
 
